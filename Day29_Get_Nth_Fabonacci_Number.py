@@ -1,8 +1,6 @@
 def Nth_Fab_Num(n):
-    if(n == 0):
-        return 0
-    if(n == 1):
-        return 1
+    if(n <= 1):
+        return n
     else:
         a1, a2 = 0, 1
         for i in range(n-1):
